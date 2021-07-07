@@ -64,7 +64,7 @@ dependencies {
     implementation 'net.silthus:ebean-wrapper:2.8.1'
     implementation 'net.silthus.configlib:configlib-bukkit:2.6.0'
     implementation 'co.aikar:acf-paper:0.5.0-SNAPSHOT'
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.3'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.4'
 
     implementation 'net.kyori:adventure-api:4.8.0'
     implementation 'net.kyori:adventure-text-minimessage:4.0.0-SNAPSHOT'
@@ -86,7 +86,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.+'
     testImplementation "org.mockito:mockito-core:3.+"
     testImplementation 'org.assertj:assertj-core:3.+'
-    testImplementation 'com.github.seeseemelk:MockBukkit-v1.16:1.1.0'
+    testImplementation 'com.github.seeseemelk:MockBukkit-v1.16:1.3.2'
 }
 
 shadowJar {
