@@ -70,7 +70,7 @@ dependencies {
     implementation 'net.kyori:adventure-text-minimessage:4.0.0-SNAPSHOT'
     implementation 'net.kyori:adventure-platform-bukkit:4.0.0-SNAPSHOT'
     implementation group: 'net.kyori', name: 'adventure-text-feature-pagination', version: '4.0.0-SNAPSHOT'
-    implementation group: 'net.kyori', name: 'adventure-text-serializer-plain', version: '4.7.0'
+    implementation group: 'net.kyori', name: 'adventure-text-serializer-plain', version: '4.8.1'
 
     implementation group: 'io.art-framework.core', name: 'api', version: '4.5.4'
 
@@ -86,7 +86,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.+'
     testImplementation "org.mockito:mockito-core:3.+"
     testImplementation 'org.assertj:assertj-core:3.+'
-    testImplementation 'com.github.seeseemelk:MockBukkit-v1.16:1.1.0'
+    testImplementation 'com.github.seeseemelk:MockBukkit-v1.16:1.5.0'
 }
 
 shadowJar {
