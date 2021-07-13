@@ -10,7 +10,7 @@ plugins {
     id 'jacoco'
     id 'idea'
     id 'io.freefair.lombok' version '5.3.3.3'
-    id 'io.ebean' version '12.9.1'
+    id 'io.ebean' version '12.9.3'
     id 'kr.entree.spigradle' version '2.2.3'
     id 'com.github.johnrengelman.shadow' version '7.0.0'
 }
@@ -74,7 +74,7 @@ dependencies {
 
     implementation group: 'io.art-framework.core', name: 'api', version: '4.5.4'
 
-    testImplementation 'io.ebean:ebean-test:12.9.2'
+    testImplementation 'io.ebean:ebean-test:12.9.3'
 
     testImplementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
     testImplementation group: 'com.h2database', name: 'h2', version: '1.4.200'
