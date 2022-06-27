@@ -10,7 +10,7 @@ plugins {
     id 'jacoco'
     id 'idea'
     id 'io.freefair.lombok' version '6.4.3.1'
-    id 'io.ebean' version '13.6.4'
+    id 'io.ebean' version '13.6.4.1'
     id 'kr.entree.spigradle' version '2.4.2'
     id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
